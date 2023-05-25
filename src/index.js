@@ -5,6 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header';
 import Login from './Login';
+import Content from './Content';
 
 const container = document.getElementById("root");
 const root = createRoot(container);
@@ -12,7 +13,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Header />
-    <Login/>
+    <Login />
   </React.StrictMode>
 );
 

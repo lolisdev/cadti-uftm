@@ -1,0 +1,54 @@
+body {
+    background-color: #F8F8F8;
+}
+
+/* FORM */
+
+#login-page{
+    height: 80vh;
+}
+
+#form-container {
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, .2);
+    margin: 25px auto;
+    padding: 25px;
+    min-height: 60vh;
+
+}
+
+#form-container h2 {
+    font-weight: 900;
+    margin: 0px 0 50px 0px;
+}
+
+#form-container .form-control {
+    border: none;
+    border-bottom: 1px solid #CCC;
+    border-radius: 0;
+}
+
+#form-container .form-control:focus {
+    box-shadow: none;
+}
+
+#form-container .form-floating label {
+    color:#CCC;
+}
+
+#form-container .form-floating label > .form-control:focus~label {
+    color:#222;
+}
+
+#form-container input[type="submit"]{
+    background-color: #78c565;
+    border-color: #78c565;
+}
+
+/* IMAGE */
+
+.row.align-items-center {
+    align-items: center;
+    height: 100%;
+}

@@ -1,26 +1,28 @@
 .App-logo {
-    height: 10vmin;
-    pointer-events: none;
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.header-nav {
+  background-color: #78c565;
+  min-height: 10vh;
+  font-size: 1rem;
+  color: white;
+  border-radius: 12px;
+  margin: 10px;
+  box-shadow: 0.5px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  display: flex;
+}
+
+nav > ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+
+  & li {
+    list-style: none;
   }
-  
-  .header-nav {
-    background-image: radial-gradient(ellipse at center,#17882c 1%,#00510f 100%);;
-    min-height: 10vh;
-    font-size: 1rem;
-    color: white;
-  }
-  
-  nav {
-    display: flex;
-  }
-  
-  nav > ul {
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-  
-    & li {
-      list-style: none;
-    }
-  }
-  
+}

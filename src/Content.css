@@ -1,0 +1,28 @@
+#content-page{
+  height: 82.5vh
+}
+
+.icon-item {
+  width: 54px;
+  height: 54px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10%;
+}
+
+.form-container {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0.5px 10px 15px rgba(0, 0, 0, 0.2);
+  margin: 25px auto;
+  padding: 25px;
+  height: auto;
+}
+
+#tooltip {
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+}
